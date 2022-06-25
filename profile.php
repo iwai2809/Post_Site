@@ -26,8 +26,10 @@
 			<img src="./images/<?= $profile['imagepath'] ?>" width="300" height="300">
 		</figure>
 		<h2 class="heading-lv2 heading-margin text-center"><?= h($profile['userName']) ?></h2>
-		<h2 class="heading-lv2 heading-margin text-center">４年　ITエキスパート学科</h2>
-		<p class="text text-center"><?= h($profile['profile']) ?></p>
+		<h2 class="heading-lv2 heading-margin text-center">４年&emsp;ITエキスパート学科</h2>
+		<h4>
+			<p class="text text-center"><?= h($profile['profile']) ?></p>
+		</h4>
 		<hr>
 		<button class="button" onclick="location.href='profile_edit.php'">編集</button>
 	</div>
