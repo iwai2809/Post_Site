@@ -16,7 +16,7 @@ Post_Site は質問や記事を投稿できるサイトです
 # Usage
 
 [XAMPP のダウンロード・インストール方法と基本的な使い方](https://www.webdesignleaves.com/pr/plugins/xampp_01.html)  
-1:XAMPP をインストールした後 C:\xampp\htdocs に Post_Site ファイルを作る、  
+1:上記のリンクからXXAMPP をインストール・基本設定をした後 C:\xampp\htdocs に Post_Site ファイルを作る、  
 2:C:\xampp\htdocs\Post_Site ファイルの中に[リンク](https://github.com/iwai2809/Post_Site)先のファイルを全て入れる、  
 ※ZIPでダウンロードした場合Post_Site-mainとなっているのでPost_Siteにファイル名を変えてください  
 3:XAMPPのphpMyAdminに行き、左にある新規作成をクリック  
