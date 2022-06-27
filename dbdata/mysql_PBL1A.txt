@@ -48,3 +48,5 @@ create table answers(
     FOREiGN key(articleId) REFERENCES article(articleId),
     FOREiGN key(userId) REFERENCES users(userId)
 );
+INSERT INTO users(userName,imagePath,profile,address,password) VALUES('イワイ','apple.png','投稿者として自分の制作物を公開できるようにしたい、自分の制作物
+に対して閲覧者の評価やアドバイスがほしいからだ','kd0000000@st.kobedenshi.ac.jp','aaa');
